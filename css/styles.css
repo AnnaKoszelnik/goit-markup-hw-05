@@ -500,3 +500,27 @@ body {
   left: -38px;
   top: -268px;
 }
+
+.underline-1::after {
+  display: block;
+  content: "";
+  width: 53px;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+  margin-left: 46px;
+  position: relative;
+  top: 29px;
+}
+
+.underline-2::after {
+  display: block;
+  content: "";
+  width: 58px;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+  margin-left: 46px;
+  position: relative;
+  top: 29px;
+}
