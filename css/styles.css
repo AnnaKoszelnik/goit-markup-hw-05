@@ -480,6 +480,7 @@ body {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
+  transform: translate(12px, 50%);
 }
 
 .modal {
@@ -494,6 +495,7 @@ body {
   position: fixed;
   z-index: 9999;
   opacity: 1;
+  transition: transform 500ms ease-in-out;
 }
 
 .window {
